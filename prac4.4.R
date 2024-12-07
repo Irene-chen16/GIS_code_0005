@@ -1,6 +1,6 @@
 # Create dot plots to compare mean total crime rate and pub density across clusters
 
-plt.figure(figsize=(10, 6))
+plt.figure(figsize=(10,6))
 
 # Plot dots for mean total crime rate
 plt.scatter(clusters, mean_crime, color="skyblue", label="Mean Total Crime Rate", s=100)
