@@ -1,0 +1,13 @@
+install.packages("usethis")
+library(usethis)
+edit_git_config()
+library(usethis)
+use_git()
+library(usethis)
+create_github_token()
+install.packages("gitcreds")
+library(gitcreds)
+gitcreds_set()
+library(usethis)
+use_github()
+1+1
